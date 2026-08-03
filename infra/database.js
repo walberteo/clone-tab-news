@@ -34,6 +34,10 @@ export default {
 };
 
 function getSSLValues() {
+  if (process.env.POSTGRES_SSL === "false") {
+    return false;
+  }
+
   if (process.env.POSTGRES_CA) {
     return {
       ca: process.env.POSTGRES_CA,
