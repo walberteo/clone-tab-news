@@ -19,6 +19,8 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@autonoma-ai/sdk": "^0.2.9",
+    "@autonoma-ai/server-express": "^0.2.9",
     "dotenv": "^16.4.4",
     "dotenv-expand": "^11.0.6",
     "next": "^13.1.6",
